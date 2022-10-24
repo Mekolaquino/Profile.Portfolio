@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5eb2c51ffb.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar" class="nav">
+        <ul>
+            <li>
+                <a href="#welcome-section">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Work</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="welcome-section">
+        <h1 class="head  px-3 ">Hey I'm Melvin</h1>
+        <p class="para  p-3"><i>a full stack web developer</i></p>
+    </div><br>
+
+        <div class="about" id="about">
+            <img src="css/IMG1.jpg" class="img m-5 p-3 border" >
+            <h1>Melvin Aquino</h1>
+            <p class="text text-inline-end px-5">Hi! I'm Melvin G. Aquino, 21 years old. I'm currently residing in Sucat Muntinlupa City. I graduated Senior High school year 2020 in Informatics College Northgate in Alabang wherein I studied Computer Programming. I experienced a lot of Non-IT related jobs including warehouse man and Helper. The reason why I wanna pursue Full stack web development is because I wanna use my knowledge and improve my skills so I can apply for an IT related job</p>
+        </div><br>
+    
+        <div id="projects" class="project-section">
+            <h2 class="projects-section-header">My Outputs</h2>
+    
+            <div class="projects-grid">
+                <a href="https://mekolaquino.github.io/OnlineLibrary/" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="css/image3.PNG">
+                    <p class="project-title">
+                        Online Library
+                    </p>
+                </a>
+    
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="css/Table.PNG">
+                    <p class="project-title">
+                        Table
+                    </p>
+                </a>
+    
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="css/Bootstrap.PNG">
+                    <p class="project-title">
+                        Bootstrap
+                    </p>
+                </a>
+    
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image"
+                        src="css/Firstpage.PNG">
+                    <p class="project-title">
+                        Firstpage
+                    </p>
+                </a>
+    
+                <a href="#" target="_blank" class="project project-tile">
+                    <img class="project-image" src="css/nav.position.PNG">
+                    <p class="project-title">
+                        Navigation Position
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="container" id="contact">
+            <h2 class="text-center">CONTACT</h2>
+            <p class="opacity text-center"><i>Message Me</i></p>
+            <div class="d-row p-32">
+              <div class="col m-6 text-large email">
+                <i class="fa fa-map-marker" style="width:30px"></i> Muntinlupa, Sucat<br>
+                <i class="fa fa-phone" style="width:30px"></i> Phone: 09214645908<br>
+                <i class="fa fa-envelope" style="width:30px"> </i> Email: aquinomelvim@mail.com<br>
+                <i class="fa fa-facebook" style="width:30px"> </i>Facebook: Mekol Aquino<br>
+                
+              </div>
+
+              <form id="contact-form" class="form-horizontal" role="form">
+                 
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                  </div>
+                </div>
+          
+                <div class="form-group">
+                  <div class="col-sm-12">
+                    <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                  </div>
+                </div>
+          
+                <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+                
+                <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                  <div class="alt-send-button"><a href="#">SEND</a>
+                  </div>
+                
+                </button>
+                
+              </form>
+             
+            </div>
+          </div>
+
+          <div class="footer-clean">
+            <footer>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Web design</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Hosting</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>About</h3>
+                            <ul>
+                                <li><a href="#">Me</a></li>
+                                <li><a href="#">Team</a></li>
+                                <li><a href="#">Legacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-md-3 item">
+                            <h3>Careers</h3>
+                            <ul>
+                                <li><a href="#">Job openings</a></li>
+                                <li><a href="#">Employee</a></li>
+                                <li><a href="#">Benefits</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 item social"><a href="#"><i class="fa-brands fa-facebook"></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i class="fa-brands fa-discord"></i></i></a><a href="#"><i class="fa-brands fa-github"></i></a>
+                            <p class="copyright">melvin Aquino © 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+</body>
+</html>
